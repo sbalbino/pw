@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABS Future - Adquira sua nave</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>ABS Future</h1>
+    <p>Além das estrelas</p>
+    <nav>
+      <a href="#produto">Produto</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#inscricao">Inscreva-se</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="produto">
+      <h2>Nossos Produtos</h2>
+      <p>
+        Conheça nossos dois modelos de naves espaciais com os mais avançados sistemas de navegação interestelar. Escolha a que combina com você.
+      </p>
+
+      <div class="produto-modelo">
+        <img src="images/nave-cylon.png" alt="Nave Cylon em voo">
+        <h3>Cylon Inspiration</h3>
+        <p>Nave esportiva, baseada nos lendários caças Cylons.</p>
+      </div>
+
+      <div class="produto-modelo">
+        <img src="images/nave-clone.png" alt="Nave Clone com cockpit panorâmico">
+        <h3>Famyliar Clone</h3>
+        <p>Modelo familiar, projetado para conforto em viagens mais longas. Das guerras clonicas para seu lar.</p>
+      </div>
+    </section>
+
+    <section id="equipe">
+      <h2>Nossa Equipe</h2>
+
+      <figure>
+        <img src="images/ceo.png" alt="Noslida">
+        <figcaption>
+          <strong>Noslida</strong><br>
+          CEO
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/engenheiro.png" alt="Oniblab">
+        <figcaption>
+          <strong>Oniblab</strong><br>
+          Chefe de Engenharia
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/piloto.png" alt="Ad Avlis">
+        <figcaption>
+          <strong>Ad Avlis</strong><br>
+          Chefe de Marketing
+        </figcaption>
+      </figure>
+    </section>
+
+    <section id="inscricao">
+      <h2>Solicite um orçamento</h2>
+
+      <form action="#" method="post">
+        <label>
+          Nome<br>
+          <input type="text" name="nome" placeholder="Nome" required>
+        </label>
+        <br>
+        <label>
+          E-mail<br>
+          <input type="email" name="email" placeholder="voce@exemplo.com" required>
+        </label>
+        <br>
+        <label>
+          Sistema<br>
+          <input type="text" name="sistema" placeholder="Sistema solar" required>
+        </label>
+        <br>
+        <label>
+          Planeta<br>
+          <input type="text" name="planeta" placeholder="Planeta" maxlength="2" required>
+        </label>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; ABS Future</p>
+  </footer>
+
+</body>
+</html>
